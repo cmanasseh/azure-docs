@@ -39,6 +39,7 @@ Start by attaching your workspace:
 ```Python
 import azureml.core
 from azureml.core import Workspace, Datastore
+from azureml.pipeline.core import PipelineData
 
 ws = Workspace.from_config()
 ```
